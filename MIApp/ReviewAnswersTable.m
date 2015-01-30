@@ -155,7 +155,7 @@ static int const NUMBER_MEDIA_ROW = ((CELL_CONTENT_WIDTH - (2*CELL_CONTENT_MARGI
     CGSize maximumLabelSize = CGSizeMake(CELL_CONTENT_WIDTH - (CELL_CONTENT_MARGIN * 2) - 100, FLT_MAX);
     
     CGSize expectedLabelSize = [text sizeWithFont:[UIFont systemFontOfSize:12.0] constrainedToSize:maximumLabelSize lineBreakMode:NSLineBreakByWordWrapping];
-    //TEST
+
     //CGSize size = [text sizeWithAttributes:@{NSFontAttributeName: [UIFont fontWithName:@"Helvetica" size:FONT_SIZE]}];
     CGFloat height = MAX(expectedLabelSize.height, 44.0f);
     
