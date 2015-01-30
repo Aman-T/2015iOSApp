@@ -159,7 +159,7 @@ static int const NUMBER_MEDIA_ROW = ((CELL_CONTENT_WIDTH - (2*CELL_CONTENT_MARGI
     //CGSize size = [text sizeWithAttributes:@{NSFontAttributeName: [UIFont fontWithName:@"Helvetica" size:FONT_SIZE]}];
     CGFloat height = MAX(expectedLabelSize.height, 44.0f);
     
-   
+   //test
     //get table height
     if ([[[[[QuestionList sharedInstance] questionList] objectAtIndex:indexPath.row] objectForKey:[[KeyList sharedInstance] answerTypeTemplateKey]] isEqualToString:[[KeyList sharedInstance] tableQuestionTypeTemplateKey]]) {
         logic = [[TableQuestionViewLogic alloc] initWithQuestion:[[[QuestionList sharedInstance] questionList] objectAtIndex:indexPath.row] collectionViewWidth:984 sizeForPrint:NO scrollView:nil headerView:nil];
